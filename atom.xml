@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Tankenqiの小窝</title>
-  
+  <icon>https://www.gravatar.com/avatar/e72f077a2f71b2be255a3ec60b054acb</icon>
   
   <link href="https://www.tankenqi.cn/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>Tankenqi</name>
-    
+    <email>2390726421@qq.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
