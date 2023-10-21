@@ -27,4 +27,4 @@ $(window).scroll(function () {
 
 });
 
-document.getElementById("page-name").innerText = document.title.split(" | Ariasakaの小窝")[0];}
+document.getElementById("page-name").innerText = document.title.split(" | Tankenqiの小窝")[0];}

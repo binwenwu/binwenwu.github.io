@@ -18,7 +18,7 @@ if ('serviceWorker' in window.navigator && navigator.serviceWorker.controller) {
 }
 
 if (localStorage.getItem("popWelcomeWindow") != "0") {
-    if(document.referrer==undefined||document.referrer.indexOf("yisous.xyz")!=-1||document.referrer.indexOf("ariasaka.top")!=-1){
+    if(document.referrer==undefined||document.referrer.indexOf("www.tankenqi.cn")!=-1||document.referrer.indexOf("tankenqi.top")!=-1){
         Snackbar.show({
             pos: "top-right",
             showAction: false,

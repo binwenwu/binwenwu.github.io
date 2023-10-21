@@ -3353,22 +3353,25 @@ li.categoryBar-list-item:nth-child(7) {
   background: #ed709b88;
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: '3D打印分享' !important;
+  content: 'GIS' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: 'Hexo魔改教程' !important;
+  content: 'Linux' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
-  content: '自己的杂谈和事情' !important;
+  content: '云原生' !important;
 }
 li.categoryBar-list-item:nth-child(4)>span::after {
-  content: '白嫖党万岁！' !important;
+  content: '前端开发' !important;
 }
 li.categoryBar-list-item:nth-child(5)>span::after {
-  content: '一些教程' !important;
+  content: '后端开发' !important;
 }
 li.categoryBar-list-item:nth-child(6)>span::after {
-  content: '解决一些bug与避坑' !important;
+  content: '微软社' !important;
+}
+li.categoryBar-list-item:nth-child(7)>span::after {
+  content: '日常办公' !important;
 }
 li.categoryBar-list-item {
   width: 32.3% !important;
