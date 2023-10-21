@@ -272,15 +272,6 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/kongtiao/index.html</loc>
-    
-    <lastmod>2023-10-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tankenqi.cn/license/index.html</loc>
     
     <lastmod>2023-10-21</lastmod>
@@ -290,7 +281,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/muyu/index.html</loc>
+    <loc>https://www.tankenqi.cn/kongtiao/index.html</loc>
     
     <lastmod>2023-10-21</lastmod>
     
@@ -300,6 +291,15 @@
   
   <url>
     <loc>https://www.tankenqi.cn/musics/index.html</loc>
+    
+    <lastmod>2023-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/muyu/index.html</loc>
     
     <lastmod>2023-10-21</lastmod>
     
@@ -416,13 +416,6 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tags/Containerd/</loc>
-    <lastmod>2023-10-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tankenqi.cn/tags/Linux/</loc>
     <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -431,6 +424,13 @@
   
   <url>
     <loc>https://www.tankenqi.cn/tags/%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2023-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/tags/Containerd/</loc>
     <lastmod>2023-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

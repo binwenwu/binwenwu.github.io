@@ -3104,7 +3104,7 @@ transform: translateY(5px);}
     opacity: 0.25;
     z-index: 10086;
     pointer-events: none;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
     transition-property: background, opacity, transform;
 }
 
