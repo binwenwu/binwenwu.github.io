@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.tankenqi.cn/speaks/index.html</loc>
+    
+    <lastmod>2023-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tankenqi.cn/fcircle/index.html</loc>
     
     <lastmod>2023-10-22</lastmod>
@@ -102,15 +111,6 @@
   
   <url>
     <loc>https://www.tankenqi.cn/license/index.html</loc>
-    
-    <lastmod>2023-10-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tankenqi.cn/speaks/index.html</loc>
     
     <lastmod>2023-10-21</lastmod>
     
@@ -344,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/bangumis/index.html</loc>
+    <loc>https://www.tankenqi.cn/categories/index.html</loc>
     
     <lastmod>2023-10-21</lastmod>
     
@@ -353,7 +353,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/categories/index.html</loc>
+    <loc>https://www.tankenqi.cn/bangumis/index.html</loc>
     
     <lastmod>2023-10-21</lastmod>
     
@@ -434,13 +434,6 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tags/Containerd/</loc>
-    <lastmod>2023-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tankenqi.cn/tags/Linux/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -455,14 +448,14 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tags/Pandoc/</loc>
+    <loc>https://www.tankenqi.cn/tags/Containerd/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/</loc>
+    <loc>https://www.tankenqi.cn/tags/Pandoc/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -477,6 +470,13 @@
   
   <url>
     <loc>https://www.tankenqi.cn/tags/VPN/</loc>
+    <lastmod>2023-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

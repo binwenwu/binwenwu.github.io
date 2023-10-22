@@ -1,3 +1,4 @@
+https://www.tankenqi.cn/speaks/index.html
 https://www.tankenqi.cn/fcircle/index.html
 https://www.tankenqi.cn/links/index.html
 https://www.tankenqi.cn/messageboard/index.html
@@ -10,7 +11,6 @@ https://www.tankenqi.cn/update/index.html
 https://www.tankenqi.cn/othersite/index.html
 https://www.tankenqi.cn/stars/index.html
 https://www.tankenqi.cn/license/index.html
-https://www.tankenqi.cn/speaks/index.html
 https://www.tankenqi.cn/stars/allStars.json
 https://www.tankenqi.cn/zaobao/index.html
 https://www.tankenqi.cn/package.json
@@ -36,8 +36,8 @@ https://www.tankenqi.cn/kongtiao/index.html
 https://www.tankenqi.cn/musics/index.html
 https://www.tankenqi.cn/muyu/index.html
 https://www.tankenqi.cn/fontawesome/index.html
-https://www.tankenqi.cn/bangumis/index.html
 https://www.tankenqi.cn/categories/index.html
+https://www.tankenqi.cn/bangumis/index.html
 https://www.tankenqi.cn/
 https://www.tankenqi.cn/tags/%E9%81%A5%E6%84%9F/
 https://www.tankenqi.cn/tags/GIS/
@@ -48,13 +48,13 @@ https://www.tankenqi.cn/tags/PostgreSQL/
 https://www.tankenqi.cn/tags/PostGIS/
 https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/
 https://www.tankenqi.cn/tags/K8S/
-https://www.tankenqi.cn/tags/Containerd/
 https://www.tankenqi.cn/tags/Linux/
 https://www.tankenqi.cn/tags/%E5%AE%89%E8%A3%85/
+https://www.tankenqi.cn/tags/Containerd/
 https://www.tankenqi.cn/tags/Pandoc/
-https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/
 https://www.tankenqi.cn/tags/Clash/
 https://www.tankenqi.cn/tags/VPN/
+https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/
 https://www.tankenqi.cn/tags/Office/
 https://www.tankenqi.cn/tags/Windows/
 https://www.tankenqi.cn/tags/VMware/
