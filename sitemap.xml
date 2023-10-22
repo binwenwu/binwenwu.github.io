@@ -290,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tools/index.html</loc>
+    <loc>https://www.tankenqi.cn/tags/index.html</loc>
     
     <lastmod>2023-10-21</lastmod>
     
@@ -299,7 +299,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tags/index.html</loc>
+    <loc>https://www.tankenqi.cn/tools/index.html</loc>
     
     <lastmod>2023-10-21</lastmod>
     
@@ -434,6 +434,13 @@
   </url>
   
   <url>
+    <loc>https://www.tankenqi.cn/tags/Containerd/</loc>
+    <lastmod>2023-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tankenqi.cn/tags/Linux/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -448,21 +455,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tags/Containerd/</loc>
-    <lastmod>2023-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tankenqi.cn/tags/Pandoc/</loc>
-    <lastmod>2023-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -477,6 +470,13 @@
   
   <url>
     <loc>https://www.tankenqi.cn/tags/VPN/</loc>
+    <lastmod>2023-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -518,6 +518,13 @@
   </url>
   
   <url>
+    <loc>https://www.tankenqi.cn/tags/IP/</loc>
+    <lastmod>2023-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tankenqi.cn/tags/Vue/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -533,13 +540,6 @@
   
   <url>
     <loc>https://www.tankenqi.cn/tags/%E7%BB%84%E4%BB%B6/</loc>
-    <lastmod>2023-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tankenqi.cn/tags/IP/</loc>
     <lastmod>2023-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

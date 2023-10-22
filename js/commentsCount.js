@@ -7,12 +7,13 @@ function comCount() {
             method: "POST",
             body: JSON.stringify({
                 "event": "COMMENT_GET_FOR_ADMIN",
-                "accessToken": "c5f636edeb944874804870c09b43271a", // 此处更换accessToken 1059857c25a2ce9fba9cff298f4f33ee
+                "accessToken": "0950bd22dcacedcf5ff396a606f09f43", // 此处更换accessToken 1059857c25a2ce9fba9cff298f4f33ee
                 "per": 1,
                 "page": 1,
             }),
             headers: { 'Content-Type': 'application/json' }
         }).then(res => res.json()).then(data => {
+            console.log(data)
             document.querySelectorAll('.card_comment').forEach(i => { i.innerHTML = data.count; })
             document.getElementsByClassName("card_comment").innerText=data.count;
             saveData('comCount', data.count)
