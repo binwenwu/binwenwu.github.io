@@ -3,11 +3,11 @@ function comCount() {
     let d = loadData('comCount', 10) // 10为10分钟获取一次，可自定义时长
     if (d) document.querySelectorAll('.card_comment').forEach(i => { i.innerHTML = d; })
     else {
-        fetch('https://tkapi.yisous.xyz/', { // 此处更换url
+        fetch('https://twikoo-api-ochre-mu.vercel.app/', { // 此处更换url:https://tkapi.yisous.xyz/
             method: "POST",
             body: JSON.stringify({
                 "event": "COMMENT_GET_FOR_ADMIN",
-                "accessToken": "1059857c25a2ce9fba9cff298f4f33ee", // 此处更换accessToken
+                "accessToken": "c5f636edeb944874804870c09b43271a", // 此处更换accessToken 1059857c25a2ce9fba9cff298f4f33ee
                 "per": 1,
                 "page": 1,
             }),
