@@ -33,8 +33,8 @@ https://www.tankenqi.cn/posts/16380ff0/
 https://www.tankenqi.cn/tags/index.html
 https://www.tankenqi.cn/tools/index.html
 https://www.tankenqi.cn/kongtiao/index.html
-https://www.tankenqi.cn/musics/index.html
 https://www.tankenqi.cn/muyu/index.html
+https://www.tankenqi.cn/musics/index.html
 https://www.tankenqi.cn/fontawesome/index.html
 https://www.tankenqi.cn/bangumis/index.html
 https://www.tankenqi.cn/categories/index.html
