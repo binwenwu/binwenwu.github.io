@@ -32,7 +32,7 @@ Date.prototype.Format = function (fmt) {
     }
 query.find().then((talks) => {
     dat=new Date()
-    for(i=talks.length-1;i>=talks.length-31;i--){
+    for (i = talks.length - 1; i >= talks.length - 31 && i>=0; i--){
         var usedTime = Date.parse(dat) - Date.parse(talks[i]["createdAt"]);
         var days = Math.floor(usedTime / (24 * 3600 * 1000));
         var leave1 = usedTime % (24 * 3600 * 1000);  
@@ -55,8 +55,8 @@ query.find().then((talks) => {
     }
     document.querySelector(".shuoshuo").innerHTML=""
     for(i=0;i<speaks.length;i++){
-        var ch=document.createElement("div");
-        ch.className="swiper-slide bbtalks";
+        var ch = document.createElement("div");
+        ch.className = "swiper-slide bbtalks";
         ch.innerHTML=speaks[i];
         document.querySelector(".shuoshuo").appendChild(ch)
     }
