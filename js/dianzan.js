@@ -161,9 +161,9 @@ loadDianzan=(function () {
         User
     } = AV;
     AV.init({
-        appId: "lZ9Y2aXhXxDoc7i7CI8Ce4LT-MdYXbMMI",
-        appKey: "7g4xiwj2Jbh8jeHhSIpUKPes",
-        serverURL: "https://lz9y2axh.api.lncldglobal.com"
+        appId: "4RerqbGfsYW0B6i3fFVRWPvv-MdYXbMMI",
+        appKey: "CF1XA7YjaRWQpYI3fWsINeBg",
+        serverURL: "https://4rerqbgf.api.lncldglobal.com"
     });
     var dianzans = [];
     var hrefs = [];
