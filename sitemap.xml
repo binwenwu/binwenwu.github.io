@@ -479,13 +479,6 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tags/Containerd/</loc>
-    <lastmod>2023-10-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tankenqi.cn/tags/Linux/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -494,6 +487,13 @@
   
   <url>
     <loc>https://www.tankenqi.cn/tags/%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2023-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/tags/Containerd/</loc>
     <lastmod>2023-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
