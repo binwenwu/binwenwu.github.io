@@ -27,6 +27,8 @@
 //     }
     
 // })()
+
+
 const serviceWorker = navigator.serviceWorker;
 
 serviceWorker.getRegistrations ? serviceWorker.getRegistrations().then(function(sws) {
