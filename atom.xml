@@ -64,9 +64,9 @@
     <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="nginx" scheme="https://www.tankenqi.cn/tags/nginx/"/>
-    
     <category term="存储" scheme="https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/"/>
+    
+    <category term="nginx" scheme="https://www.tankenqi.cn/tags/nginx/"/>
     
   </entry>
   
@@ -319,9 +319,9 @@
     <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
-    
     <category term="软件安装" scheme="https://www.tankenqi.cn/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
     
     <category term="Pandoc" scheme="https://www.tankenqi.cn/tags/Pandoc/"/>
     
@@ -433,9 +433,9 @@
     <category term="Linux" scheme="https://www.tankenqi.cn/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
-    
     <category term="软件安装" scheme="https://www.tankenqi.cn/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="Linux" scheme="https://www.tankenqi.cn/tags/Linux/"/>
     
     <category term="Clash" scheme="https://www.tankenqi.cn/tags/Clash/"/>
     
