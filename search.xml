@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>SSH建立原理及配置两台主机的远程连接实现免密登陆</title>
+      <link href="/posts/85912ba6/"/>
+      <url>/posts/85912ba6/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-ssh原理"><a class="markdownIt-Anchor" href="#1-ssh原理"></a> 1 SSH原理</h2><blockquote><p>SSH是一种<strong>协议标准</strong></p><p>SSH是用在<strong>安全远程登录</strong>以及其它<strong>安全网络服务</strong></p></blockquote><p>SSH为Secure Shell的缩写，默认端口22，由IETF的网络小组（Network Working Group）所制定；SSH为建立在应用层基础上的安全协议。SSH是目前较可靠，专为远程登录会话和其他网络服务提供安全性的协议。利用SSH协议可以有效防止远程管理过程中的信息泄露问题。SSH仅仅是一协议标准，其具体的实现有很多，既有开源实现的OpenSSH，也有商业实现方案。使用范围最广泛的当然是开源实现OpenSSH</p><h2 id="2-非对称加密"><a class="markdownIt-Anchor" href="#2-非对称加密"></a> 2 非对称加密</h2><blockquote><p>SSH协议与telnet、ftp等协议主要的区别在于安全性。这就引出下一个问题：如何实现数据的安全呢？首先想到的实现方案肯定是对数据进行加密。加密的方式主要有两种：</p><ul><li>对称加密（也称为密钥加密）</li><li>非对称加密（也称公钥加密）</li><li>对称加密原理：指加密解密使用同一套密钥。对称加密的加密强度高，很难破解。</li></ul><p>但是在实际应用过程中不得不面临一个棘手的问题：如何安全的保存密钥呢？尤其是考虑到数量庞大的Client端，很难保证密钥不被泄露。一旦一个Client端的密钥被窃据，那么整个系统的安全性也就不复存在。为了解决这个问题，非对称加密应运而生</p></blockquote><ul><li>下图是两台机器SSH免密登录的原理</li></ul><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/image-20240110161954471.png" alt="image-20240110161954471" /></p><h2 id="3-免密设置"><a class="markdownIt-Anchor" href="#3-免密设置"></a> 3 免密设置</h2><ul><li>A上执行ssh-keygen -t rsa，三次回车。生成之后会在用户的根目录生成一个 “.ssh”的文件夹</li></ul><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/70-20240110162125966.png" alt="这里写图片描述" /></p><ul><li>查看.ssh下面的文件</li></ul><p><img src="https://cdn.jsdelivr.net/gh/binwenwu/picgo_demo/img/70.png" alt="这里写图片描述" /></p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">authorized_keys : 存放远程免密登录的公钥,主要通过这个文件记录多台机器的公钥（初始不存在该文件） </span><br><span class="line">id_rsa : 生成的私钥文件 </span><br><span class="line">id_rsa.pub : 生成的公钥文件</span><br><span class="line">know_hosts : 已知的主机公钥清单</span><br></pre></td></tr></table></figure><ul><li>将A上的<code>id_rsa.pub</code>中的公钥拷贝至B中的<code>authorized_keys</code></li><li>设置完成，现在A可以实现免密登录B，反之想要让B免密登录A则进行对应设置</li></ul><h2 id="4-注意事项"><a class="markdownIt-Anchor" href="#4-注意事项"></a> 4 注意事项</h2><blockquote><p>Linux服务器之间进行SSH互信免密登录时，文件及目录的权限有严格控制，不能过度授权</p></blockquote><ul><li><p><code>~/.ssh</code>目录权限为700</p></li><li><p><code>id_rsa</code>：私钥，相当于“锁”，文件权限：600</p></li><li><p><code>id_rsa.pub</code>：公钥，相当于“钥匙”，文件权限：644</p></li><li><p><code>authorized_keys</code>：认证文件，记录别人给你的公钥，文件权限：600</p></li><li><p><code>known_hosts</code>：”指纹文件“，记录首次SSH互信对端留给你的”指纹信息“，文件权限：600</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> SSH </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Postgres展平JSON(b)</title>
       <link href="/posts/2922fd2b/"/>
       <url>/posts/2922fd2b/</url>
