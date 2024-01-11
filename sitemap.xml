@@ -416,7 +416,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tools/index.html</loc>
+    <loc>https://www.tankenqi.cn/tags/index.html</loc>
     
     <lastmod>2023-10-21</lastmod>
     
@@ -425,7 +425,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tags/index.html</loc>
+    <loc>https://www.tankenqi.cn/tools/index.html</loc>
     
     <lastmod>2023-10-21</lastmod>
     
@@ -633,6 +633,13 @@
   </url>
   
   <url>
+    <loc>https://www.tankenqi.cn/tags/Postgres/</loc>
+    <lastmod>2024-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tankenqi.cn/tags/SSH/</loc>
     <lastmod>2024-01-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -690,13 +697,6 @@
   
   <url>
     <loc>https://www.tankenqi.cn/tags/yum/</loc>
-    <lastmod>2024-01-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tankenqi.cn/tags/Postgres/</loc>
     <lastmod>2024-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

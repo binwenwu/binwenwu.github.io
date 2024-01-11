@@ -44,8 +44,8 @@ https://www.tankenqi.cn/posts/f5fad029/
 https://www.tankenqi.cn/posts/7ddf46fc/
 https://www.tankenqi.cn/posts/9c5d9ac5/
 https://www.tankenqi.cn/posts/e232bc22/
-https://www.tankenqi.cn/tools/index.html
 https://www.tankenqi.cn/tags/index.html
+https://www.tankenqi.cn/tools/index.html
 https://www.tankenqi.cn/muyu/index.html
 https://www.tankenqi.cn/fontawesome/index.html
 https://www.tankenqi.cn/bangumis/index.html
@@ -73,6 +73,7 @@ https://www.tankenqi.cn/tags/%E5%AD%98%E5%82%A8/
 https://www.tankenqi.cn/tags/Office/
 https://www.tankenqi.cn/tags/Windows/
 https://www.tankenqi.cn/tags/nginx/
+https://www.tankenqi.cn/tags/Postgres/
 https://www.tankenqi.cn/tags/SSH/
 https://www.tankenqi.cn/tags/VMware/
 https://www.tankenqi.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/
@@ -82,7 +83,6 @@ https://www.tankenqi.cn/tags/Vue/
 https://www.tankenqi.cn/tags/%E5%89%8D%E7%AB%AF/
 https://www.tankenqi.cn/tags/%E7%BB%84%E4%BB%B6/
 https://www.tankenqi.cn/tags/yum/
-https://www.tankenqi.cn/tags/Postgres/
 https://www.tankenqi.cn/tags/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/
 https://www.tankenqi.cn/tags/%E7%AE%97%E6%B3%95/
 https://www.tankenqi.cn/tags/%E6%89%93%E5%8C%85/
