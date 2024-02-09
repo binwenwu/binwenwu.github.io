@@ -6,7 +6,7 @@
   <link href="https://www.tankenqi.cn/atom.xml" rel="self"/>
   
   <link href="https://www.tankenqi.cn/"/>
-  <updated>2024-01-12T07:11:34.799Z</updated>
+  <updated>2024-02-09T07:29:32.243Z</updated>
   <id>https://www.tankenqi.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CentOS安装GDAL</title>
+    <link href="https://www.tankenqi.cn/posts/84542e25/"/>
+    <id>https://www.tankenqi.cn/posts/84542e25/</id>
+    <published>2024-02-09T07:26:08.000Z</published>
+    <updated>2024-02-09T07:29:32.243Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="gdal" scheme="https://www.tankenqi.cn/tags/gdal/"/>
+    
+  </entry>
   
   <entry>
     <title>Bigtable —— 简介</title>
@@ -224,9 +251,9 @@
     <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
     <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -251,13 +278,13 @@
     <category term="后端开发" scheme="https://www.tankenqi.cn/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
+    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
+    
     <category term="容器" scheme="https://www.tankenqi.cn/tags/%E5%AE%B9%E5%99%A8/"/>
     
     <category term="Docker" scheme="https://www.tankenqi.cn/tags/Docker/"/>
     
     <category term="数据库" scheme="https://www.tankenqi.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="后端" scheme="https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/"/>
     
   </entry>
   

@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>CentOS安装GDAL</title>
+      <link href="/posts/84542e25/"/>
+      <url>/posts/84542e25/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-gdal-35-安装"><a class="markdownIt-Anchor" href="#1-gdal-35-安装"></a> 1 GDAL ≥ 3.5 安装</h3><ul><li>安装CMake</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载</span></span><br><span class="line">wget -c -P /storage/software/gdal-related-libs https://github.com/Kitware/CMake/releases/download/v3.13.2/cmake-3.13.2.tar.gz</span><br><span class="line"><span class="comment"># 解压</span></span><br><span class="line">tar -zxvf cmake-3.13.2.tar.gz</span><br><span class="line"><span class="comment"># 安装</span></span><br><span class="line">./bootstrap</span><br><span class="line">make</span><br><span class="line">make install</span><br></pre></td></tr></table></figure><ul><li>安装sqlite（官网：<a href="https://www.sqlite.org/download.html%EF%BC%89">https://www.sqlite.org/download.html）</a></li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载</span></span><br><span class="line">wget -c -P /gdal https://www.sqlite.org/2023/sqlite-autoconf-3440000.tar.gz</span><br><span class="line"><span class="comment"># 解压</span></span><br><span class="line">tar -xvzf sqlite-autoconf-3440000.tar.gz</span><br><span class="line"><span class="comment"># 安装</span></span><br><span class="line">./configure</span><br><span class="line">make</span><br><span class="line">make install</span><br><span class="line">ldconfig</span><br></pre></td></tr></table></figure><ul><li>安装proj（官网：<a href="https://proj.org/download.html%EF%BC%89">https://proj.org/download.html）</a></li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载</span></span><br><span class="line">wget -c -P /gdal https://download.osgeo.org/proj/proj-8.1.0.tar.gz</span><br><span class="line"><span class="comment"># 解压</span></span><br><span class="line">tar -xvzf proj-8.1.0.tar.gz</span><br><span class="line"><span class="comment"># 安装</span></span><br><span class="line">./configure</span><br><span class="line">make</span><br><span class="line">make check</span><br><span class="line">make install</span><br></pre></td></tr></table></figure><ul><li>安装GDAL（教程：<a href="https://gdal.org/development/building_from_source.html%EF%BC%89">https://gdal.org/development/building_from_source.html）</a></li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载</span></span><br><span class="line">wget -c -P /gdal http://download.osgeo.org/gdal/3.8.0/gdal-3.8.0.tar.gz</span><br><span class="line"><span class="comment"># 解压</span></span><br><span class="line">tar -xvzf gdal-3.8.0.tar.gz</span><br><span class="line"><span class="comment"># 编译安装</span></span><br><span class="line"><span class="built_in">cd</span> /gdal/gdal-3.8.0</span><br><span class="line"><span class="comment"># 创建安装路径</span></span><br><span class="line"><span class="built_in">mkdir</span> build</span><br><span class="line"><span class="built_in">cd</span> build</span><br><span class="line">cmake ..</span><br><span class="line">cmake --build .</span><br><span class="line">cmake --build . --target install</span><br></pre></td></tr></table></figure><ul><li>编写环境变量</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 在export PATH下一行添加，依赖的动态库和静态库添加到LD_LIBRARY_PATH环境变量中去</span></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:/usr/local/bin</span><br><span class="line"><span class="built_in">export</span> LD_LIBRARY_PATH=<span class="variable">$LD_LIBRARY_PATH</span>:/usr/local/lib</span><br><span class="line"><span class="comment"># 使环境变量生效</span></span><br><span class="line"><span class="built_in">source</span> ~/.bashrc</span><br><span class="line"><span class="comment"># 查看GDAL版本信息</span></span><br><span class="line">gdalinfo --version </span><br></pre></td></tr></table></figure><h3 id="2-gdal-35-安装"><a class="markdownIt-Anchor" href="#2-gdal-35-安装"></a> 2 GDAL ＜ 3.5 安装</h3><ul><li>安装sqlite和proj（略）</li><li>安装gcc gcc-c++</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install gcc gcc-c++ kernel-devel</span><br></pre></td></tr></table></figure><ul><li>安装GDAL</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf gdal-3.0.4.tar.gz</span><br><span class="line"><span class="built_in">cd</span> gdal-3.0.4</span><br><span class="line">./configure</span><br><span class="line">make</span><br><span class="line">make install</span><br></pre></td></tr></table></figure><ul><li>编写环境变量</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 在export PATH下一行添加，依赖的动态库和静态库添加到LD_LIBRARY_PATH环境变量中去</span></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:/usr/local/bin</span><br><span class="line"><span class="built_in">export</span> LD_LIBRARY_PATH=<span class="variable">$LD_LIBRARY_PATH</span>:/usr/local/lib</span><br><span class="line"><span class="comment"># 使环境变量生效</span></span><br><span class="line"><span class="built_in">source</span> ~/.bashrc</span><br><span class="line"><span class="comment"># 查看GDAL版本信息</span></span><br><span class="line">gdalinfo --version </span><br></pre></td></tr></table></figure><h3 id="3-yum-安装-gdal"><a class="markdownIt-Anchor" href="#3-yum-安装-gdal"></a> 3 yum 安装 GDAL</h3><ul><li>添加EPEL仓库</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install epel-release</span><br></pre></td></tr></table></figure><ul><li>安装GDAL及其相关软件包</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install gdal gdal-devel gdal-python</span><br></pre></td></tr></table></figure><ul><li>查看版本</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gdalinfo --version </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 后端开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 后端 </tag>
+            
+            <tag> gdal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Bigtable —— 简介</title>
       <link href="/posts/4b68374a/"/>
       <url>/posts/4b68374a/</url>
@@ -207,9 +234,9 @@
       
         <tags>
             
-            <tag> 数据库 </tag>
-            
             <tag> 后端 </tag>
+            
+            <tag> 数据库 </tag>
             
         </tags>
       
@@ -234,13 +261,13 @@
       
         <tags>
             
+            <tag> 后端 </tag>
+            
             <tag> 容器 </tag>
             
             <tag> Docker </tag>
             
             <tag> 数据库 </tag>
-            
-            <tag> 后端 </tag>
             
         </tags>
       
