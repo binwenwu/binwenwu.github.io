@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/zaobao/index.html</loc>
+    <loc>https://www.tankenqi.cn/update/index.html</loc>
     
     <lastmod>2024-05-26</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/update/index.html</loc>
+    <loc>https://www.tankenqi.cn/zaobao/index.html</loc>
     
     <lastmod>2024-05-26</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/othersite/index.html</loc>
+    <loc>https://www.tankenqi.cn/speaks/index.html</loc>
     
     <lastmod>2024-05-26</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/speaks/index.html</loc>
+    <loc>https://www.tankenqi.cn/othersite/index.html</loc>
     
     <lastmod>2024-05-26</lastmod>
     
@@ -218,6 +218,15 @@
   </url>
   
   <url>
+    <loc>https://www.tankenqi.cn/chatgpt/index.html</loc>
+    
+    <lastmod>2024-05-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.tankenqi.cn/categories/index.html</loc>
     
     <lastmod>2024-05-26</lastmod>
@@ -228,15 +237,6 @@
   
   <url>
     <loc>https://www.tankenqi.cn/eat_cats/index.html</loc>
-    
-    <lastmod>2024-05-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tankenqi.cn/chatgpt/index.html</loc>
     
     <lastmod>2024-05-26</lastmod>
     
@@ -389,15 +389,6 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/posts/9d39de82/</loc>
-    
-    <lastmod>2024-05-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tankenqi.cn/posts/d862c611/</loc>
     
     <lastmod>2024-05-26</lastmod>
@@ -426,6 +417,15 @@
   
   <url>
     <loc>https://www.tankenqi.cn/posts/438a2103/</loc>
+    
+    <lastmod>2024-05-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/posts/9d39de82/</loc>
     
     <lastmod>2024-05-26</lastmod>
     
@@ -520,13 +520,6 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tags/3DTiles/</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tankenqi.cn/tags/%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -549,6 +542,13 @@
   
   <url>
     <loc>https://www.tankenqi.cn/tags/CentOS/</loc>
+    <lastmod>2024-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/tags/3DTiles/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -618,13 +618,6 @@
   </url>
   
   <url>
-    <loc>https://www.tankenqi.cn/tags/Containerd/</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.tankenqi.cn/tags/Linux/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -654,6 +647,13 @@
   
   <url>
     <loc>https://www.tankenqi.cn/tags/VPN/</loc>
+    <lastmod>2024-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.tankenqi.cn/tags/Containerd/</loc>
     <lastmod>2024-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
